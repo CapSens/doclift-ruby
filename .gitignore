@@ -1,0 +1,10 @@
+/.bundle/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+*.gem
+.ruby-version
+.claude/
+CLAUDE.md

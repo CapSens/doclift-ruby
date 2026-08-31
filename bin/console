@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "doclift"
+require "irb"
+
+# Deliberately configures nothing: reading an api_key from the environment
+# here would let an idle console call hit a real organisation.
+IRB.start(__FILE__)
